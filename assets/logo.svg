@@ -1,119 +1,142 @@
 <svg width="1600" height="720" viewBox="0 0 1600 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Meta Skill Generator</title>
-  <desc id="desc">An original editorial-style banner showing a skill blueprint board, modular cards, and a wordmark for Meta Skill Generator.</desc>
+  <desc id="desc">A distinct system-style banner with modular blocks assembling a SKILL.md card, using a cool green, lime, and blue palette.</desc>
 
   <defs>
-    <radialGradient id="peachGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 186) rotate(90) scale(210 210)">
-      <stop offset="0" stop-color="#F9C89D" stop-opacity="0.78"/>
-      <stop offset="1" stop-color="#F9C89D" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="paper" x1="150" y1="102" x2="523" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFDF9"/>
-      <stop offset="1" stop-color="#F5F6F8"/>
+    <linearGradient id="panelGlow" x1="120" y1="100" x2="1480" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14302C"/>
+      <stop offset="1" stop-color="#0D1917"/>
     </linearGradient>
-    <linearGradient id="chipA" x1="110" y1="110" x2="278" y2="172" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#D9F3E9"/>
-      <stop offset="1" stop-color="#BFE8D9"/>
+    <linearGradient id="barGlow" x1="980" y1="0" x2="1210" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DE1C2"/>
+      <stop offset="1" stop-color="#D9FF63"/>
     </linearGradient>
-    <linearGradient id="chipB" x1="298" y1="112" x2="470" y2="174" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFF4DD"/>
-      <stop offset="1" stop-color="#FCE5B3"/>
-    </linearGradient>
-    <linearGradient id="chipC" x1="110" y1="212" x2="282" y2="274" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#DCEBFB"/>
-      <stop offset="1" stop-color="#C7DCF6"/>
-    </linearGradient>
-    <linearGradient id="chipD" x1="298" y1="212" x2="474" y2="274" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFE6D3"/>
-      <stop offset="1" stop-color="#FFD4B0"/>
-    </linearGradient>
-    <filter id="shadow" x="66" y="60" width="532" height="394" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="panelShadow" x="24" y="44" width="1552" height="632" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="18"/>
+      <feOffset dy="14"/>
       <feGaussianBlur stdDeviation="18"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0.053 0 0 0 0 0.144 0 0 0 0 0.244 0 0 0 0.18 0"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.04 0 0 0 0 0.11 0 0 0 0 0.1 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+    <filter id="softGlow" x="144" y="106" width="624" height="426" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="14"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.16 0 0 0 0 0.88 0 0 0 0 0.76 0 0 0 0.12 0"/>
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
     </filter>
   </defs>
 
-  <rect width="1600" height="720" fill="#FCFBF7"/>
-  <circle cx="280" cy="186" r="210" fill="url(#peachGlow)"/>
-  <path d="M82 468C130 418 183 391 240 386" stroke="#10314F" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 13" opacity="0.58"/>
-  <path d="M103 540C168 590 252 612 355 606" stroke="#EA7A19" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 15" opacity="0.78"/>
-  <path d="M510 92C559 112 597 145 624 192" stroke="#EA7A19" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 15" opacity="0.78"/>
+  <rect width="1600" height="720" fill="#F5FAF4"/>
 
-  <g transform="translate(86 78) rotate(-3 250 180)" filter="url(#shadow)">
-    <rect x="18" y="18" width="500" height="344" rx="26" fill="#E8EFF3" stroke="#7D97AD" stroke-width="4"/>
-    <rect x="48" y="48" width="442" height="286" rx="24" fill="url(#paper)" stroke="#7D97AD" stroke-width="4"/>
-    <rect x="204" y="22" width="128" height="34" rx="17" fill="#13304B"/>
-    <text x="268" y="45" text-anchor="middle" fill="#FFFDF8" font-size="15" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="1.8">BLUEPRINT</text>
-
-    <g>
-      <rect x="88" y="92" width="168" height="64" rx="18" fill="url(#chipA)" stroke="#10314F" stroke-opacity="0.14"/>
-      <circle cx="114" cy="124" r="14" fill="#1D7B63"/>
-      <path d="M109 125L113 129L121 119" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="138" y="130" fill="#10314F" font-size="22" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">TRIGGERS</text>
-    </g>
-
-    <g>
-      <rect x="280" y="92" width="176" height="64" rx="18" fill="url(#chipB)" stroke="#10314F" stroke-opacity="0.14"/>
-      <circle cx="306" cy="124" r="14" fill="#EA7A19"/>
-      <path d="M298 124H314" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
-      <path d="M306 116V132" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
-      <text x="330" y="130" fill="#10314F" font-size="22" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">WORKFLOW</text>
-    </g>
-
-    <g>
-      <rect x="88" y="192" width="176" height="64" rx="18" fill="url(#chipC)" stroke="#10314F" stroke-opacity="0.14"/>
-      <rect x="104" y="108" width="0" height="0" opacity="0"/>
-      <rect x="104" y="209" width="20" height="30" rx="6" fill="#3D6C9E"/>
-      <rect x="110" y="217" width="8" height="4" rx="2" fill="#FFFDF8"/>
-      <rect x="110" y="225" width="8" height="4" rx="2" fill="#FFFDF8"/>
-      <text x="136" y="230" fill="#10314F" font-size="22" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">RESOURCES</text>
-    </g>
-
-    <g>
-      <rect x="280" y="192" width="184" height="64" rx="18" fill="url(#chipD)" stroke="#10314F" stroke-opacity="0.14"/>
-      <circle cx="306" cy="224" r="14" fill="#EA7A19"/>
-      <path d="M299 230L313 216" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
-      <path d="M306 216H313V223" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="330" y="230" fill="#10314F" font-size="22" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">OUTPUTS</text>
-    </g>
-
-    <path d="M256 124C271 124 276 124 280 124" stroke="#EA7A19" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 10"/>
-    <path d="M176 157C176 172 176 180 176 192" stroke="#10314F" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 10"/>
-    <path d="M368 157C368 172 368 180 368 192" stroke="#EA7A19" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 10"/>
-    <path d="M264 224C271 224 274 224 280 224" stroke="#10314F" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 10"/>
-
-    <rect x="88" y="282" width="312" height="26" rx="13" fill="#13304B" fill-opacity="0.08"/>
-    <rect x="104" y="288" width="82" height="12" rx="6" fill="#13304B" fill-opacity="0.2"/>
-    <rect x="194" y="288" width="116" height="12" rx="6" fill="#13304B" fill-opacity="0.14"/>
-    <rect x="318" y="288" width="66" height="12" rx="6" fill="#EA7A19" fill-opacity="0.25"/>
+  <g filter="url(#panelShadow)">
+    <rect x="60" y="78" width="1480" height="564" rx="46" fill="url(#panelGlow)"/>
   </g>
 
-  <g transform="translate(150 490)">
-    <ellipse cx="170" cy="78" rx="170" ry="24" fill="#D9E2E8" fill-opacity="0.5"/>
-    <rect x="48" y="0" width="176" height="112" rx="14" transform="rotate(-8 48 0)" fill="#FAFCFD" stroke="#10314F" stroke-width="4"/>
-    <rect x="88" y="18" width="76" height="10" rx="5" transform="rotate(-8 88 18)" fill="#10314F" fill-opacity="0.18"/>
-    <rect x="88" y="42" width="124" height="10" rx="5" transform="rotate(-8 88 42)" fill="#10314F" fill-opacity="0.14"/>
-    <rect x="88" y="66" width="92" height="10" rx="5" transform="rotate(-8 88 66)" fill="#10314F" fill-opacity="0.14"/>
-    <rect x="254" y="10" width="150" height="90" rx="16" fill="#F7EFE2" stroke="#10314F" stroke-width="4"/>
-    <path d="M280 70H308V42" stroke="#EA7A19" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M280 42L308 70" stroke="#EA7A19" stroke-width="8" stroke-linecap="round"/>
-    <path d="M328 36H376" stroke="#10314F" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
-    <path d="M328 56H386" stroke="#10314F" stroke-width="8" stroke-linecap="round" opacity="0.18"/>
-    <path d="M328 76H360" stroke="#10314F" stroke-width="8" stroke-linecap="round" opacity="0.18"/>
-    <rect x="10" y="86" width="138" height="18" rx="9" fill="#10314F"/>
-    <path d="M438 8L451 40L483 53L451 66L438 98L425 66L393 53L425 40L438 8Z" fill="#F6A423" stroke="#EA7A19" stroke-width="4" stroke-linejoin="round"/>
+  <g opacity="0.16" stroke="#7AB8AA">
+    <path d="M140 162H660" stroke-width="2"/>
+    <path d="M140 224H660" stroke-width="2"/>
+    <path d="M140 286H660" stroke-width="2"/>
+    <path d="M140 348H660" stroke-width="2"/>
+    <path d="M140 410H660" stroke-width="2"/>
+    <path d="M140 472H660" stroke-width="2"/>
+    <path d="M180 130V520" stroke-width="2"/>
+    <path d="M260 130V520" stroke-width="2"/>
+    <path d="M340 130V520" stroke-width="2"/>
+    <path d="M420 130V520" stroke-width="2"/>
+    <path d="M500 130V520" stroke-width="2"/>
+    <path d="M580 130V520" stroke-width="2"/>
   </g>
 
-  <g transform="translate(718 0)">
-    <text x="0" y="342" fill="#071F36" font-size="94" font-weight="800" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-2">MetaSkill</text>
-    <text x="0" y="430" fill="#E97512" font-size="86" font-weight="800" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-2">Generator</text>
-    <text x="4" y="496" fill="#173A59" font-size="28" font-weight="500" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-0.15">shape rough ideas into reusable SKILL.md workflows</text>
-    <path d="M604 530C670 520 756 521 846 533" stroke="#F39B1E" stroke-width="6" stroke-linecap="round"/>
-    <path d="M866 536C896 541 922 550 948 564" stroke="#F39B1E" stroke-width="6" stroke-linecap="round"/>
+  <g opacity="0.85">
+    <circle cx="132" cy="132" r="8" fill="#2DE1C2"/>
+    <circle cx="156" cy="132" r="8" fill="#6CB6FF"/>
+    <circle cx="180" cy="132" r="8" fill="#D9FF63"/>
+  </g>
+
+  <g>
+    <rect x="122" y="136" width="152" height="34" rx="17" fill="#173731"/>
+    <text x="198" y="158" text-anchor="middle" fill="#EFFFF5" font-size="17" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="1.6">SYSTEM LOGIC</text>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M298 250H382" stroke="#244C44" stroke-width="6"/>
+    <path d="M566 250H650" stroke="#244C44" stroke-width="6"/>
+    <path d="M340 218V176" stroke="#244C44" stroke-width="6"/>
+    <path d="M608 218V176" stroke="#244C44" stroke-width="6"/>
+    <path d="M340 366V408" stroke="#244C44" stroke-width="6"/>
+    <path d="M608 366V408" stroke="#244C44" stroke-width="6"/>
+  </g>
+
+  <g>
+    <rect x="196" y="152" width="288" height="66" rx="20" fill="#163B34" stroke="#2DE1C2" stroke-width="3"/>
+    <circle cx="234" cy="185" r="18" fill="#2DE1C2"/>
+    <path d="M226 185L232 191L243 178" stroke="#10312B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="266" y="193" fill="#E9FFF8" font-size="28" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">INTAKE</text>
+  </g>
+
+  <g>
+    <rect x="464" y="152" width="288" height="66" rx="20" fill="#1B3720" stroke="#D9FF63" stroke-width="3"/>
+    <circle cx="502" cy="185" r="18" fill="#D9FF63"/>
+    <path d="M493 185H511" stroke="#11211D" stroke-width="5" stroke-linecap="round"/>
+    <path d="M502 176V194" stroke="#11211D" stroke-width="5" stroke-linecap="round"/>
+    <text x="534" y="193" fill="#F4FFE0" font-size="28" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">TRIGGERS</text>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <rect x="264" y="218" width="420" height="148" rx="28" fill="#F4FBF7" stroke="#2DE1C2" stroke-width="4"/>
+    <rect x="300" y="252" width="122" height="18" rx="9" fill="#183F38" fill-opacity="0.16"/>
+    <rect x="300" y="286" width="188" height="18" rx="9" fill="#183F38" fill-opacity="0.12"/>
+    <rect x="300" y="320" width="146" height="18" rx="9" fill="#183F38" fill-opacity="0.12"/>
+    <path d="M502 258L478 292L502 326" stroke="#2DE1C2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M570 258L594 292L570 326" stroke="#6CB6FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M534 334L544 248" stroke="#D9FF63" stroke-width="10" stroke-linecap="round"/>
+    <rect x="468" y="236" width="176" height="32" rx="16" fill="#10211D"/>
+    <text x="556" y="258" text-anchor="middle" fill="#F4FBF7" font-size="20" font-weight="700" font-family="Menlo, Consolas, monospace">SKILL.md</text>
+  </g>
+
+  <g>
+    <rect x="196" y="408" width="248" height="66" rx="20" fill="#15303A" stroke="#6CB6FF" stroke-width="3"/>
+    <rect x="220" y="426" width="24" height="30" rx="7" fill="#6CB6FF"/>
+    <rect x="227" y="434" width="10" height="4" rx="2" fill="#0C2024"/>
+    <rect x="227" y="442" width="10" height="4" rx="2" fill="#0C2024"/>
+    <text x="264" y="449" fill="#E8F3FF" font-size="28" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">RESOURCES</text>
+  </g>
+
+  <g>
+    <rect x="466" y="408" width="286" height="66" rx="20" fill="#173731" stroke="#2DE1C2" stroke-width="3"/>
+    <path d="M506 451H534V423" stroke="#2DE1C2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M506 423L534 451" stroke="#2DE1C2" stroke-width="7" stroke-linecap="round"/>
+    <text x="558" y="449" fill="#E9FFF8" font-size="28" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif">PACKAGING</text>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="206" y="526" width="116" height="18" rx="9" fill="#2DE1C2"/>
+    <rect x="336" y="526" width="84" height="18" rx="9" fill="#6CB6FF"/>
+    <rect x="434" y="526" width="132" height="18" rx="9" fill="#D9FF63"/>
+    <rect x="580" y="526" width="70" height="18" rx="9" fill="#28554C"/>
+  </g>
+
+  <g>
+    <text x="828" y="300" fill="#F2FFF8" font-size="108" font-weight="800" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-2">MetaSkill</text>
+    <text x="828" y="398" fill="#D9FF63" font-size="98" font-weight="800" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-2">Generator</text>
+    <text x="832" y="470" fill="#B8D2C9" font-size="28" font-weight="500" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="-0.1">turn fuzzy workflows into reusable skill systems</text>
+    <rect x="832" y="516" width="380" height="8" rx="4" fill="url(#barGlow)"/>
+    <rect x="1228" y="516" width="68" height="8" rx="4" fill="#274E45"/>
+    <rect x="1308" y="516" width="42" height="8" rx="4" fill="#6CB6FF"/>
+  </g>
+
+  <g opacity="0.78">
+    <rect x="1294" y="176" width="90" height="90" rx="22" fill="#12322D" stroke="#244C44" stroke-width="3"/>
+    <path d="M1320 218H1360" stroke="#2DE1C2" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1320 240H1350" stroke="#6CB6FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1320 196H1342" stroke="#D9FF63" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1408" y="176" width="90" height="90" rx="22" fill="#12322D" stroke="#244C44" stroke-width="3"/>
+    <path d="M1430 222L1454 198L1476 220" stroke="#D9FF63" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1430 244L1454 220L1476 242" stroke="#2DE1C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
