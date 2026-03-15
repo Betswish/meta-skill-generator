@@ -3,6 +3,10 @@
 <img src="assets/logo.png" width="760" alt="Meta Skill Generator logo">
 <h1>Meta Skill Generator</h1>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-2de1c2.svg)](./LICENSE)
+[![Release](https://img.shields.io/github/v/release/Betswish/meta-skill-generator?color=d9ff63)](https://github.com/Betswish/meta-skill-generator/releases)
+[![Discussions](https://img.shields.io/github/discussions/Betswish/meta-skill-generator?color=6cb6ff)](https://github.com/Betswish/meta-skill-generator/discussions)
+
 English | [中文](./README.zh.md)
 
 </div>
@@ -90,7 +94,15 @@ Expected output shape:
 
 - `SKILL.md` contains the skill behavior and authoring workflow.
 - `agents/openai.yaml` contains optional UI metadata.
+- `assets/social-preview.png` is a GitHub-ready social preview asset.
+- `LICENSE` clarifies the reuse terms.
 - `README.md` and `README.zh.md` provide quick-start documentation.
+
+## Community
+
+- Ask questions or share ideas in [GitHub Discussions](https://github.com/Betswish/meta-skill-generator/discussions).
+- Track stable milestones in [Releases](https://github.com/Betswish/meta-skill-generator/releases).
+- If you build something with this skill, open a Discussion and share the generated skill.
 
 ## Design Principles
 

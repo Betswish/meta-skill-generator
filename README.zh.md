@@ -3,6 +3,10 @@
 <img src="assets/logo.png" width="760" alt="Meta Skill Generator logo">
 <h1>Meta Skill Generator</h1>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-2de1c2.svg)](./LICENSE)
+[![Release](https://img.shields.io/github/v/release/Betswish/meta-skill-generator?color=d9ff63)](https://github.com/Betswish/meta-skill-generator/releases)
+[![Discussions](https://img.shields.io/github/discussions/Betswish/meta-skill-generator?color=6cb6ff)](https://github.com/Betswish/meta-skill-generator/discussions)
+
 [English](./README.md) | 中文
 
 </div>
@@ -90,7 +94,14 @@ and keep the skill concise. English only.
 
 - `SKILL.md`：skill 的核心行为定义与写作流程
 - `agents/openai.yaml`：可选的界面元数据
+- `assets/social-preview.png`：可直接用于 GitHub 社交预览图
+- `LICENSE`：明确项目的复用许可
 - `README.md` 与 `README.zh.md`：中英文快速上手说明
+
+## 社区
+
+- 在 [GitHub Discussions](https://github.com/Betswish/meta-skill-generator/discussions) 里提问、讨论想法或分享生成出来的 skill。
+- 在 [Releases](https://github.com/Betswish/meta-skill-generator/releases) 查看稳定版本。
 
 ## 设计原则
 
