@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="220" alt="Meta Skill Generator logo">
+<img src="assets/logo.png" width="760" alt="Meta Skill Generator logo">
 <h1>Meta Skill Generator</h1>
 
 English | [中文](./README.zh.md)
