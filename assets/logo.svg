@@ -53,14 +53,14 @@
   </g>
 
   <g opacity="0.85">
-    <circle cx="132" cy="132" r="8" fill="#2DE1C2"/>
-    <circle cx="156" cy="132" r="8" fill="#6CB6FF"/>
-    <circle cx="180" cy="132" r="8" fill="#D9FF63"/>
+    <circle cx="132" cy="118" r="8" fill="#2DE1C2"/>
+    <circle cx="156" cy="118" r="8" fill="#6CB6FF"/>
+    <circle cx="180" cy="118" r="8" fill="#D9FF63"/>
   </g>
 
   <g>
-    <rect x="122" y="136" width="152" height="34" rx="17" fill="#173731"/>
-    <text x="198" y="158" text-anchor="middle" fill="#EFFFF5" font-size="17" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="1.6">SYSTEM LOGIC</text>
+    <rect x="122" y="124" width="208" height="34" rx="17" fill="#173731"/>
+    <text x="226" y="146" text-anchor="middle" fill="#EFFFF5" font-size="17" font-weight="700" font-family="Avenir Next, Trebuchet MS, Arial, sans-serif" letter-spacing="1.6">SYSTEM LOGIC</text>
   </g>
 
   <g stroke-linecap="round" stroke-linejoin="round">
