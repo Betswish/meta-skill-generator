@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta Skill Generator"
+  short_description: "Generate production-ready SKILL.md files"
+  default_prompt: "Use $meta-skill-generator to turn this workflow brief into a concise, reusable SKILL.md."
