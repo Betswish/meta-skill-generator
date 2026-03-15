@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" width="760" alt="Meta Skill Generator logo">
+<img src="https://raw.githubusercontent.com/Betswish/meta-skill-generator/main/assets/logo.png?rev=20260316b" width="760" alt="Meta Skill Generator logo">
 <h1>Meta Skill Generator</h1>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-2de1c2.svg)](./LICENSE)
