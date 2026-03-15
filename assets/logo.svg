@@ -131,12 +131,12 @@
   </g>
 
   <g opacity="0.78">
-    <rect x="1294" y="176" width="90" height="90" rx="22" fill="#12322D" stroke="#244C44" stroke-width="3"/>
-    <path d="M1320 218H1360" stroke="#2DE1C2" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1320 240H1350" stroke="#6CB6FF" stroke-width="8" stroke-linecap="round"/>
-    <path d="M1320 196H1342" stroke="#D9FF63" stroke-width="8" stroke-linecap="round"/>
-    <rect x="1408" y="176" width="90" height="90" rx="22" fill="#12322D" stroke="#244C44" stroke-width="3"/>
-    <path d="M1430 222L1454 198L1476 220" stroke="#D9FF63" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M1430 244L1454 220L1476 242" stroke="#2DE1C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1360" y="170" width="74" height="74" rx="18" fill="#12322D" stroke="#244C44" stroke-width="3"/>
+    <path d="M1385 206H1415" stroke="#2DE1C2" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1385 224H1408" stroke="#6CB6FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1385 188H1402" stroke="#D9FF63" stroke-width="7" stroke-linecap="round"/>
+    <rect x="1448" y="170" width="74" height="74" rx="18" fill="#12322D" stroke="#244C44" stroke-width="3"/>
+    <path d="M1468 208L1485 191L1502 208" stroke="#D9FF63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1468 226L1485 209L1502 226" stroke="#2DE1C2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
