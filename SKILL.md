@@ -1,6 +1,19 @@
 ---
 name: meta-skill-generator
 description: Use when users want to create, revise, or scaffold a Codex skill from a plain-language brief. Especially relevant when they ask for a new SKILL.md, want to convert workflow requirements into a reusable skill, or need help defining trigger conditions, structure, bundled resources, or UI metadata for a skill.
+tags:
+  - agent-skills
+  - codex
+  - claude-code
+  - cursor
+  - github-copilot
+  - prompt-engineering
+  - developer-tools
+allowed-tools:
+  - read
+  - write
+  - exec
+license: MIT
 ---
 
 # Meta Skill Generator
